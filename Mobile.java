@@ -1,21 +1,20 @@
-package basicjava;
+package week1.day1;
 
 public class Mobile {
-	
-	String Name = "Rohith";
-	int number = 962961766;
-	boolean mobileOn = true;
-	
+boolean isNew=true;
+int number=1005;
+String name="Nokia";
 	public static void main(String[] args) {
-		
-
-		Mobile mobilenew = new Mobile();
-		boolean mobilestatus = mobilenew.mobileOn;
-		System.out.println(mobilestatus);
-		String nameofperson = mobilenew.Name;
-		System.out.println(nameofperson);
-		int number_1 = mobilenew.number;
-		System.out.println(number_1);
+		// TODO Auto-generated method stub
+		Mobile mob=new Mobile();
+		boolean blue2 = mob.isNew;
+System.out.println(blue2);
+int num2 = mob.number;
+System.out.println(num2);
+String name2 = mob.name;
+System.out.println(name2);
 	}
 
 }
+
+

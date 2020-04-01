@@ -1,28 +1,28 @@
-package basicjava;
+package week1.day1;
 
 public class Android {
-	
-	String modelName = "Iphone";
-	int mYear = 2020;
-	boolean isAndroid = true;
-	float mbWeight = 1.5f;
-	long imeNumber = 1236548798;
+
+	long num=985632417;
+	boolean isFast=true;
+	String model="MotoG5S+";
+	int phAge=5;
+	float pixel=8.5f;
 
 	public static void main(String[] args) {
-		
+		// TODO Auto-generated method stub
 
-		Android newAndroid = new Android();
-		String phoneModel = newAndroid.modelName;
-		int serialNumber = newAndroid.mYear;
-		boolean osStatus = newAndroid.isAndroid;
-		float mobileWeight = newAndroid.mbWeight;
-		long mbIMENumber = newAndroid.imeNumber;
-		
-		System.out.println(phoneModel);
-		System.out.println(serialNumber);
-		System.out.println(osStatus);
-		System.out.println(mobileWeight);
-		System.out.println(mbIMENumber);
+Android and=new Android();
+ long num2=and.num;
+      System.out.println(num2);
+ boolean isFast2=and.isFast;
+	System.out.println(isFast2);
+String model2=and.model;
+	System.out.println(model2);
+int phAge2=and.phAge;
+	System.out.println(phAge2);
+float pixel2=and.pixel;
+	System.out.println(pixel2);
+ 
 	}
 
 }
